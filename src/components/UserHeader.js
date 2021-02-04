@@ -14,7 +14,6 @@ class UserHeader extends React.Component {
       return null;
     }
 
-    console.log(user);
     return <div className="header">{user.name}</div>;
   }
 }
